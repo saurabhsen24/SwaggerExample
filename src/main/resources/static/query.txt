@@ -1,0 +1,5 @@
+CREATE table carts(id serial, name varchar(256),price numeric(15));
+
+insert into carts(id,name,price) values(1,'s1',12);
+
+select * from carts;
